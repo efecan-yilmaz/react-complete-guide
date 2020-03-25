@@ -129,8 +129,8 @@ class App extends Component {
 
     return (
       <div className={classes.App}>
-        <h1>Hi babe! Wanna hang?</h1>
-        <p className={assignedClasses.join(' ')}>You were good babe!</p>
+        <h1>One project to rule them all!</h1>
+        <p className={assignedClasses.join(' ')}>In the darkness, bind them!</p>
         <button className={btnClass}  onClick={this.togglePersonHandler}>Toggle Persons</button>
         {/* <button className="button" onClick={this.togglePersonHandler}>Toggle Persons</button> */}
         {persons}
@@ -140,8 +140,8 @@ class App extends Component {
     
     // return (
     //   <div className="App">
-    //     <h1>Hi babe! Wanna hang?</h1>
-    //     <p className={classes.join(' ')}>You were good babe!</p>
+    //     <h1>One project to rule them all!</h1>
+    //     <p className={classes.join(' ')}>In the darkness, bind them!</p>
     //     {/* <button style={style} onClick={this.togglePersonHandler}>Toggle Persons</button> */}
     //     <StyledButton alt={this.state.showPersons} onClick={this.togglePersonHandler}>Toggle Person</StyledButton>
     //     {persons}
@@ -151,8 +151,8 @@ class App extends Component {
     // return ( Radium
     //   <StyleRoot>
     //     <div className="App">
-    //       <h1>Hi babe! Wanna hang?</h1>
-    //       <p className={classes.join(' ')}>You were good babe!</p>
+    //       <h1>One project to rule them all!</h1>
+    //       <p className={classes.join(' ')}>In the darkness, bind them!</p>
     //       <button style={style} onClick={this.togglePersonHandler}>Toggle Persons</button>
     //       {persons}
     //     </div>
@@ -183,8 +183,8 @@ class App extends Component {
   
     //   return (
     //     <div className="App">
-    //       <h1>Hi babe! Wanna hang?</h1>
-    //       <p>You were good babe!</p>
+    //       <h1>One project to rule them all!</h1>
+    //       <p>In the darkness, bind them!</p>
     //       <button style={style} onClick={this.togglePersonHandler}>Toggle Persons</button>
     //       {persons}
     //     </div>
@@ -192,8 +192,8 @@ class App extends Component {
 
     // return (
     //   <div className="App">
-    //     <h1>Hi babe! Wanna hang?</h1>
-    //     <p>You were good babe!</p>
+    //     <h1>One project to rule them all!</h1>
+    //     <p>In the darkness, bind them!</p>
     //     <button style={style} onClick={this.togglePersonHandler}>Toggle Persons</button>
     //     {
     //       this.state.showPersons ?
@@ -209,8 +209,8 @@ class App extends Component {
 
     // return (
     //   <div className="App">
-    //     <h1>Hi babe! Wanna hang?</h1>
-    //     <p>You were good babe!</p>
+    //     <h1>One project to rule them all!</h1>
+    //     <p>In the darkness, bind them!</p>
     //     <button style={style} onClick={(event) => this.switchNameHandler('Efecan')}>Switch the Name!!!</button>
     //     <div>
     //       <Person name={this.state.persons[0].name} age={this.state.persons[0].age}/>
@@ -263,8 +263,8 @@ export default App;
 
 //   return (
 //     <div className="App">
-//       <h1>Hi babe! Wanna hang?</h1>
-//       <p>You were good babe!</p>
+//       <h1>One project to rule them all!</h1>
+//       <p>In the darkness, bind them!</p>
 //       <button onClick={switchNameHandler}>Switch the Name!!!</button>
 //       <Person name={personsState.persons[0].name} age={personsState.persons[0].age}/>
 //       <Person name={personsState.persons[1].name} age={personsState.persons[1].age}>I am a dentist!</Person>
